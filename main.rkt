@@ -41,6 +41,12 @@
               (λ (edge/bool) (equal? (first (car edge/bool)) v))
               (hash->list tc))))
           (get-vertices g)))))
+(provide
+ (proc-doc/names
+  rdag?
+  (-> any/c boolean?)
+  (e)
+  @{Tests whether @racket[e] is a single-rooted, directed acyclic graph.}))
 
 ;; then, for every edge in the original, add appropriate edges to the pict
 (define (rdag->pict rdag vert->pict)
