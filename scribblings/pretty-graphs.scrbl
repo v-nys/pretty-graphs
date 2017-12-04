@@ -27,7 +27,6 @@
    (for-label
     racket
     pretty-graphs)
-   scribble/example
    scribble/extract)
 @title{Pretty Graphs}
 @author{Vincent Nys}
