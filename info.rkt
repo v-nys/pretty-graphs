@@ -3,5 +3,4 @@
 (define collection "pretty-graphs")
 (define version "0.2")
 (define deps '("base"
-               "graph"
-               "metapict"))
+               "graph"))
