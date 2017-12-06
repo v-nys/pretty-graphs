@@ -3,4 +3,9 @@
 (define collection "pretty-graphs")
 (define version "0.2")
 (define deps '("base"
-               "graph"))
+               "at-exp-lib"
+               "graph"
+               "pict-doc"
+               "pict-lib"
+               "scribble-lib"
+               "racket-doc"))
